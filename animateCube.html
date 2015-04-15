@@ -9,7 +9,8 @@
             font: 200 1em 'Helvetica Neue';
             padding: 0;
             margin: 0;
-            perspective: 2000px;
+            perspective: 1000px;
+            perspective-origin: 50% 75%;
             transform-style: preserve-3d;
         }
         button {
@@ -159,17 +160,17 @@
 <button>Click to animate</button>
 <div class="rotateCube">
     <input type="text" name="data" class="cubeFace top"/>
-    <input type="text" name="data" class="cubeFace back"/>
     <input type="text" name="data" class="cubeFace bottom"/>
     <input type="text" name="data" class="cubeFace left"/>
     <input type="text" name="data" class="cubeFace right"/>
     <input type="text" name="data" class="cubeFace front"/>
+    <input type="text" name="data" class="cubeFace back"/>
     <input type="text" name="data" class="cubeFace innerTop"/>
-    <input type="text" name="data" class="cubeFace innerBack"/>
     <input type="text" name="data" class="cubeFace innerBottom"/>
     <input type="text" name="data" class="cubeFace innerLeft"/>
     <input type="text" name="data" class="cubeFace innerRight"/>
     <input type="text" name="data" class="cubeFace innerFront"/>
+    <input type="text" name="data" class="cubeFace innerBack"/>
 </div>
 </body>
 </html>
